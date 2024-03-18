@@ -1,0 +1,16 @@
+.header{
+  background-color:rgb(126, 223, 126);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.address{
+  margin-left: 80px;
+}
+
+.Add{
+  display: flex;
+  justify-content: flex-end;
+}
