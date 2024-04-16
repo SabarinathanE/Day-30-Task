@@ -212,7 +212,12 @@ function InputUser(e) {
     if (isEditing) {
         EditedData();
     }else{
-        AddDataInitial();
+        if (data.length > 0 && description.length > 0 && email.length > 0 && street.length > 0 && suite.length > 0 &&
+            city.length > 0 && zipcode.length > 0 && lat.length > 0 && lng.length > 0 && phone.length > 0 &&
+            website.length > 0 && name.length > 0 && catchPhrase.length > 0 && bs.length > 0){
+            AddDataInitial();
+        }else alert("Must Enter All Details")
+
     }
  }
 
